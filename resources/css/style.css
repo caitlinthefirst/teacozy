@@ -1,0 +1,159 @@
+
+body {
+  background-color: black;
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav {
+  justify-content: flex-end;
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav a {
+  display: inline-block;
+  color: seashell;
+  opacity: 0.9;
+  padding: 20px 10px;
+}
+
+/* Main Content */
+
+.big-container {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+}
+
+.intro {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+
+/* Featured Tea Section */
+
+#featured-tea {
+  justify-content: center;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  margin-top: 70px;
+}
+
+#locations .intro {
+  background-color: transparent;
+}
+
+#locations .tile-container {
+  margin: auto;
+  width: 1200px;
+}
+
+.cozy-spot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+  background-color: black;
+  opacity: 1;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+address {
+  font-style: normal;
+  margin: 0;
+  line-height: 2.5em;
+}
+
+address h3 {
+  padding: 0;
+}
+
+address p {
+  margin: 0;
+}
+
+/* Contact Section */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+  width: 100%;
+}
